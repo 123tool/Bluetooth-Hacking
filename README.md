@@ -26,4 +26,22 @@ Pastikan perangkat Anda sudah memiliki akses **ROOT** untuk menjalankan fungsi s
    pkg update && pkg upgrade
    pkg install python python-pip bluez termux-api
    pip install bleak
+2. **Clone :**
+   ```
+   git clone [https://github.com/123tool/Bluetooth-Hacking.git]
+   cd Bluetooth-Hacking
+3. **Run :**
+   ```
+   python BT_Bluetooth.py
+   atau
+   python BT_Bluetooth_Pro.py
 
+## Cara Penggunaan :
+- ​Jalankan script dan tunggu radar memindai perangkat di sekitar Anda.
+- ​Pilih ID Target yang ingin diuji (cek kolom agar tidak salah sasaran).
+- ​Pilih Jenis Operasi (A/B/D) sesuai kebutuhan testing Anda.
+- ​Tekan Ctrl + C untuk menghentikan serangan dan kembali ke radar.
+  
+​**⚠️ Disclaimer / Peringatan**
+
+​Alat ini dibuat hanya untuk tujuan Edukasi dan Keamanan Jaringan. Penggunaan alat ini terhadap perangkat orang lain tanpa izin adalah tindakan ilegal. Pengembang (123TOOL) tidak bertanggung jawab atas penyalahgunaan alat ini.
