@@ -6,6 +6,17 @@
 
 Alat audit keamanan Bluetooth tingkat lanjut yang dirancang untuk pemindaian radar dan pengujian ketahanan perangkat (Stress Testing) dalam radius lokal.
 
+> [!CAUTION]
+> **PERINGATAN KERAS :** Alat ini membutuhkan akses **ROOT** penuh. Fitur serangan (Flood, Deauth, & Battery Drain) tidak akan berfungsi tanpa izin SuperUser (sudo/tsu) karena proteksi kernel pada protokol Bluetooth.
+
+---
+
+## 🛠️ Persyaratan Sistem (Prerequisites)
+Untuk performa maksimal dan akses fitur ofensif, pastikan lingkungan kerja Anda memenuhi syarat berikut:
+1. **Perangkat:** HP Android (Rooted) atau Laptop dengan Linux OS.
+2. **Permission:** Akses SuperUser (`sudo` di Linux atau `tsu` di Termux).
+3. **Hardware:** Modul Bluetooth internal yang mendukung pengiriman paket L2CAP.
+
 ---
 
 ## ⚡ Fitur Utama
